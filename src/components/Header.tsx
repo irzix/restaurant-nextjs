@@ -65,7 +65,7 @@ function MenuCloseIcon({ open }: { open: boolean }) {
 const MENU_LINKS = [
   { href: "/", label: "Home" },
   { href: "/#our-story-heading", label: "About Us" },
-  { href: "/#our-menu-heading", label: "Menu" },
+  { href: "/menu", label: "Menu" },
   { href: "/events", label: "Events" },
   { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact Us" },

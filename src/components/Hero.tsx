@@ -96,17 +96,30 @@ function SlideContent({
         {slide.description}
       </p>
       {showLink && (
-        <Link
-          href="/about"
-          className="group font-barlow-c mt-10 inline-flex h-14 w-full max-w-[280px] items-center justify-center gap-6 overflow-hidden rounded-lg border border-[#A68B5B] bg-[#1A1A1A] px-5 py-3 text-base font-semibold uppercase leading-none tracking-wide text-white transition-colors hover:border-[#B89B6B] hover:bg-[#252525] sm:h-[78px] sm:max-w-[280px] sm:gap-8 sm:px-6 sm:py-4 sm:text-[20px]"
-          onMouseLeave={onButtonMouseLeave}
-        >
-          Learn more
-          <ButtonArrow
-            arrowReEntering={arrowReEntering}
-            onAnimationEnd={onArrowAnimationEnd}
-          />
-        </Link>
+        <div className="mt-10 flex flex-col sm:flex-row gap-4 items-center justify-center">
+          {/* <Link
+            href="/about"
+            className="group font-barlow-c inline-flex h-14 w-full max-w-[280px] items-center justify-center gap-6 overflow-hidden rounded-lg border border-[#A68B5B] bg-[#1A1A1A] px-5 py-3 text-base font-semibold uppercase leading-none tracking-wide text-white transition-colors hover:border-[#B89B6B] hover:bg-[#252525] sm:h-[78px] sm:max-w-[280px] sm:gap-8 sm:px-6 sm:py-4 sm:text-[20px]"
+            onMouseLeave={onButtonMouseLeave}
+          >
+            Learn more
+            <ButtonArrow
+              arrowReEntering={arrowReEntering}
+              onAnimationEnd={onArrowAnimationEnd}
+            />
+          </Link> */}
+          <Link
+            href="/menu"
+            className="group font-barlow-c inline-flex h-14 w-full max-w-[280px] items-center justify-center gap-6 overflow-hidden rounded-lg border border-[#A68B5B] bg-[#1A1A1A] px-5 py-3 text-base font-semibold uppercase leading-none tracking-wide text-white transition-colors hover:border-[#B89B6B] hover:bg-[#252525] sm:h-[78px] sm:max-w-[280px] sm:gap-8 sm:px-6 sm:py-4 sm:text-[20px]"
+            onMouseLeave={onButtonMouseLeave}
+          >
+            View Menu
+            <ButtonArrow
+              arrowReEntering={arrowReEntering}
+              onAnimationEnd={onArrowAnimationEnd}
+            />
+          </Link>
+        </div>
       )}
     </>
   );
