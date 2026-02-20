@@ -1,0 +1,37 @@
+@import "@fontsource/gilda-display/400.css";
+@import "@fontsource/barlow/200.css";
+@import "@fontsource/barlow/400.css";
+@import "@fontsource/barlow-condensed/500.css";
+@import "@fontsource/barlow-condensed/600.css";
+@import "@fontsource/barlow-condensed/700.css";
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-gilda: "Gilda Display", serif;
+    --font-barlow: "Barlow", sans-serif;
+    --font-barlow-c: "Barlow Condensed", sans-serif;
+    --font-allura: "Allura", cursive;
+  }
+  body {
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+}
+
+/* On small screens and for reduced-motion: show content immediately, no animations */
+@media (max-width: 767px), (prefers-reduced-motion: reduce) {
+  .animate-fade-in-up,
+  .animate-fade-in,
+  .animate-fade-out,
+  .animate-flip-x,
+  .animate-enter-from-left,
+  .animate-reveal-slide-up {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
