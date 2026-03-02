@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const TAGLINE =
-  "Discover a gastronomic experience that transports you to the heart of Italy.";
+  "Experience the essence of the Mediterranean. Fresh flavors and coastal vibes in the heart of Limassol.";
 
 const EXPLORE_LINKS = [
   { href: "/", label: "Home" },
@@ -101,99 +101,99 @@ export function Footer() {
     <footer className="text-white font-barlow">
       <div className="bg-[#212121]">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
-          {/* Column 1: Branding + Social */}
-          <div className="space-y-4">
-            <h2 className="font-allura text-4xl font-normal text-white">
-              Lenca
-            </h2>
-            <p className="max-w-xs text-sm leading-relaxed text-white/90">
-              {TAGLINE}
-            </p>
-            <div className="flex items-center gap-4">
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/90 transition hover:text-white"
-                aria-label="Instagram"
-              >
-                <InstagramIcon />
-              </a>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/90 transition hover:text-white"
-                aria-label="Facebook"
-              >
-                <FacebookIcon />
-              </a>
-              <a
-                href="https://youtube.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/90 transition hover:text-white"
-                aria-label="YouTube"
-              >
-                <YouTubeIcon />
-              </a>
+          <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
+            {/* Column 1: Branding + Social */}
+            <div className="space-y-4">
+              <h2 className="font-allura text-4xl font-normal text-white">
+                Kyma
+              </h2>
+              <p className="max-w-xs text-sm leading-relaxed text-white/90">
+                {TAGLINE}
+              </p>
+              <div className="flex items-center gap-4">
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/90 transition hover:text-white"
+                  aria-label="Instagram"
+                >
+                  <InstagramIcon />
+                </a>
+                <a
+                  href="https://facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/90 transition hover:text-white"
+                  aria-label="Facebook"
+                >
+                  <FacebookIcon />
+                </a>
+                <a
+                  href="https://youtube.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/90 transition hover:text-white"
+                  aria-label="YouTube"
+                >
+                  <YouTubeIcon />
+                </a>
+              </div>
+            </div>
+
+            {/* Column 2: Explore */}
+            <div>
+              <h3 className="mb-4 text-sm font-semibold uppercase tracking-wide text-white">
+                Explore
+              </h3>
+              <ul className="space-y-3">
+                {EXPLORE_LINKS.map(({ href, label }) => (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      className="text-sm text-white/90 transition hover:text-white"
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Column 3: Contact */}
+            <div>
+              <h3 className="mb-4 text-sm font-semibold uppercase tracking-wide text-white">
+                Contact
+              </h3>
+              <address className="not-italic">
+                <p className="text-sm text-white/90">
+                  28 Archbishop Makarios III Ave, Limassol, Cyprus, 3035
+                </p>
+                <p className="mt-3 flex items-center gap-2 text-sm text-white/90">
+                  <PhoneIcon />
+                  <a href="tel:+35725123456" className="hover:text-white">
+                    +357 25 123456
+                  </a>
+                </p>
+                <p className="mt-3 flex items-center gap-2 text-sm text-white/90">
+                  <EmailIcon />
+                  <a
+                    href="mailto:info@kymacyprus.com"
+                    className="hover:text-white"
+                  >
+                    info@kymacyprus.com
+                  </a>
+                </p>
+              </address>
             </div>
           </div>
-
-          {/* Column 2: Explore */}
-          <div>
-            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wide text-white">
-              Explore
-            </h3>
-            <ul className="space-y-3">
-              {EXPLORE_LINKS.map(({ href, label }) => (
-                <li key={href}>
-                  <Link
-                    href={href}
-                    className="text-sm text-white/90 transition hover:text-white"
-                  >
-                    {label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Column 3: Contact */}
-          <div>
-            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wide text-white">
-              Contact
-            </h3>
-            <address className="not-italic">
-              <p className="text-sm text-white/90">
-                28 Archbishop Makarios III Ave, Limassol, Cyprus, 3035
-              </p>
-              <p className="mt-3 flex items-center gap-2 text-sm text-white/90">
-                <PhoneIcon />
-                <a href="tel:+35725123456" className="hover:text-white">
-                  +357 25 123456
-                </a>
-              </p>
-              <p className="mt-3 flex items-center gap-2 text-sm text-white/90">
-                <EmailIcon />
-                <a
-                  href="mailto:info@cyprusflavors.com"
-                  className="hover:text-white"
-                >
-                  info@cyprusflavors.com
-                </a>
-              </p>
-            </address>
-          </div>
-        </div>
         </div>
       </div>
 
       {/* Bottom bar */}
       <div className="border-t border-white/10 bg-[#1e1e1e]">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-6 text-sm text-white/60 sm:flex-row lg:px-8">
-          <p>© Lenca. All Rights Reserved.</p>
+          <p>© Kyma Cyprus. All Rights Reserved.</p>
           <p className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1">
             <span>Built by</span>
             <a

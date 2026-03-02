@@ -4,8 +4,8 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Italiano Ristorante",
-  description: "Discover a gastronomic experience that transports you to the heart of Italy.",
+  title: "Kyma Cyprus | Mediterranean Gastronomy",
+  description: "Experience the essence of the Mediterranean at Kyma Cyprus. Fresh flavors, coastal vibes, and authentic hospitality in the heart of Limassol.",
 };
 
 export default function RootLayout({

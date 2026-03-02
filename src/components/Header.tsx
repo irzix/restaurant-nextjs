@@ -16,47 +16,39 @@ function CrestLogo() {
       aria-hidden
     >
       <path
-        d="M20 4l2.5 6.5L29 13l-6.5 2.5L20 22l-2.5-6.5L11 13l6.5-2.5L20 4z"
-        fill="currentColor"
-      />
-      <circle cx="20" cy="20" r="14" stroke="currentColor" strokeWidth="1.5" fill="none" />
-      <path
-        d="M20 10v20M10 20h20"
+        d="M5 25C10 20 15 30 20 25C25 20 30 30 35 25"
         stroke="currentColor"
-        strokeWidth="1"
+        strokeWidth="2.5"
         strokeLinecap="round"
       />
+      <path
+        d="M5 20C10 15 15 25 20 20C25 15 30 25 35 20"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        className="opacity-60"
+      />
+      <circle cx="20" cy="20" r="15" stroke="currentColor" strokeWidth="1" className="opacity-20" />
     </svg>
   );
 }
 
-function CartIcon() {
-  return (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-      <circle cx="9" cy="21" r="1" />
-      <circle cx="20" cy="21" r="1" />
-      <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
-    </svg>
-  );
-}
+
 
 function MenuCloseIcon({ open }: { open: boolean }) {
   return (
     <span className="relative block h-6 w-6" aria-hidden>
       <span
-        className={`absolute left-0 h-0.5 w-6 rounded-full bg-current transition-all duration-300 ease-in-out origin-center ${
-          open ? "top-1/2 -translate-y-1/2 rotate-45" : "top-1.5"
-        }`}
+        className={`absolute left-0 h-0.5 w-6 rounded-full bg-current transition-all duration-300 ease-in-out origin-center ${open ? "top-1/2 -translate-y-1/2 rotate-45" : "top-1.5"
+          }`}
       />
       <span
-        className={`absolute left-0 top-1/2 h-0.5 w-6 -translate-y-1/2 rounded-full bg-current transition-all duration-300 ease-in-out origin-center ${
-          open ? "opacity-0" : "opacity-100"
-        }`}
+        className={`absolute left-0 top-1/2 h-0.5 w-6 -translate-y-1/2 rounded-full bg-current transition-all duration-300 ease-in-out origin-center ${open ? "opacity-0" : "opacity-100"
+          }`}
       />
       <span
-        className={`absolute left-0 h-0.5 w-6 rounded-full bg-current transition-all duration-300 ease-in-out origin-center ${
-          open ? "top-1/2 -translate-y-1/2 -rotate-45" : "bottom-1.5"
-        }`}
+        className={`absolute left-0 h-0.5 w-6 rounded-full bg-current transition-all duration-300 ease-in-out origin-center ${open ? "top-1/2 -translate-y-1/2 -rotate-45" : "bottom-1.5"
+          }`}
       />
     </span>
   );
@@ -113,17 +105,11 @@ export function Header() {
             href="/"
             className="font-allura text-4xl tracking-wide text-header-accent text-white sm:text-5xl md:text-6xl lg:text-7xl"
           >
-            Lenca
+            Kyma
           </Link>
 
           <div className="flex items-center gap-5">
-            <Link
-              href="/cart"
-              className="text-header-accent transition-opacity hover:opacity-80"
-              aria-label="Cart"
-            >
-              <CartIcon />
-            </Link>
+
             <button
               type="button"
               onClick={() => (open ? requestClose() : setOpen(true))}

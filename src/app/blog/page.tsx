@@ -3,8 +3,8 @@ import { BlogPostList } from "@/components/BlogPostList";
 import { BLOG_POSTS } from "@/lib/blog";
 
 export const metadata = {
-  title: "Blog | LENCA",
-  description: "Stories, recipes, and news from LENCA.",
+  title: "Blog | Kyma Cyprus",
+  description: "Stories, recipes, and news from Kyma Cyprus.",
 };
 
 export default function BlogPage() {
