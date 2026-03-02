@@ -1,0 +1,253 @@
+{
+  "header": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "menu": "Menü",
+    "events": "Etkinlikler",
+    "blog": "Blog",
+    "contact": "İletişim",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat"
+  },
+  "hero": {
+    "slide1": {
+      "subheading": "Deneyim",
+      "heading1": "İtalyan",
+      "heading2": "Restoran",
+      "description": "Sizi İtalya'nın kalbine taşıyan bir gastronomi deneyimi keşfedin."
+    },
+    "slide2": {
+      "subheading": "Tat",
+      "heading1": "Otantik",
+      "heading2": "Mutfak",
+      "description": "Geleneksel tariflerden ve en iyi mevsimlik malzemelerden el yapımı yemekler."
+    },
+    "slide3": {
+      "subheading": "Miras",
+      "heading1": "Köklü",
+      "heading2": "Gelenek",
+      "description": "Nesiller boyu süren mutfak sanatının İtalyan misafirperverliğinin sıcaklığıyla buluştuğu yer."
+    },
+    "viewMenu": "Menüyü Görüntüle"
+  },
+  "features": {
+    "feature1": {
+      "line1": "OTANTİK",
+      "line2": "MUTFAK"
+    },
+    "feature2": {
+      "line1": "TAZE & YEREL",
+      "line2": "MALZEMELER"
+    },
+    "feature3": {
+      "line1": "DAVETKAR",
+      "line2": "ATMOSFER"
+    },
+    "feature4": {
+      "line1": "SICAK",
+      "line2": "HİZMET"
+    }
+  },
+  "story": {
+    "heading": "Hikayemiz",
+    "subtitle": "1982'den beri",
+    "block1": {
+      "heading": "İtalya",
+      "description": "Ziyaretçiler büyüleyici kırsal kesimi, dünyaca ünlü bağları ve İtalya ile derin bağlantısı tarafından çekilir."
+    },
+    "block2": {
+      "heading": "Yeniden Yorumlama",
+      "description": "Klasik tarifleri yeniden yorumlayarak, şefler sevilen yemeklere çağdaş bir dokunuş getiriyor."
+    },
+    "block3": {
+      "heading": "Buluşma",
+      "description": "Arkadaşların ve ailenin masada bir araya geldiği, İtalyan misafirperverliğinin sıcaklığıyla çevrili yer."
+    }
+  },
+  "chef": {
+    "heading": "Şefimiz",
+    "subtitle": "DENEYİMLİ",
+    "quote": "Yemek, insanlığın evrensel dilidir.",
+    "bio1": "Ünlü Şef Antonio Carbone, onlarca yıllık mutfak uzmanlığını ve İtalyan mutfağına olan tutkusunu Figaro'ya getiriyor.",
+    "bio2": "Michelin yıldızlı geçmişiyle, İtalyan gastronomisinin zenginliğini ve çeşitliliğini kutlayan bir menü oluşturdu.",
+    "passionTitle": "TUTKU",
+    "passionDesc": "İtalyan lezzetlerine derin takdir.",
+    "title": "Baş Şef",
+    "name": "Antonio Carbone"
+  },
+  "wine": {
+    "heading": "Şarap Seçkisi",
+    "subtitle": "Özenle Seçilmiş Koleksiyon",
+    "description": "Ünlü Akdeniz bağlarından özenle seçilmiş şaraplarımızı keşfedin.",
+    "wines": {
+      "barolo": {
+        "name": "Barolo",
+        "price": "₺85",
+        "description": "Piedmont'tan kiraz, gül ve trüf notaları olan tam gövdeli kırmızı."
+      },
+      "barbaresco": {
+        "name": "Barbaresco",
+        "price": "₺78",
+        "description": "Rafine tanenler ve çiçeksi aromalar içeren zarif Nebbiolo."
+      },
+      "chianti": {
+        "name": "Chianti Classico",
+        "price": "₺62",
+        "description": "Parlak kiraz ve toprak tonları olan klasik Toskana kırmızısı."
+      },
+      "prosecco": {
+        "name": "Prosecco",
+        "price": "₺48",
+        "description": "Çıtır elma ve armut notaları olan köpüklü beyaz."
+      },
+      "soave": {
+        "name": "Soave",
+        "price": "₺52",
+        "description": "Narenciye ve badem aromaları olan ferahlatıcı beyaz şarap."
+      }
+    }
+  },
+  "reviews": {
+    "heading": "Müşteri Yorumları",
+    "subtitle": "Misafirlerimiz Ne Diyor",
+    "customers": {
+      "christian": {
+        "name": "Christian Cooper",
+        "text": "Italiano beklentilerimi aştı! Personel inanılmaz derecede özenli ve dostaneydi, ihtiyacımız olan her şeye sahip olduğumuzdan emin oldular. Biftek tam istediğim gibi pişmişti ve tiramisu şimdiye kadar yediğim en iyisiydi. Lezzetli yemekle birleşen hizmet, unutulmaz bir akşam yarattı."
+      },
+      "emily": {
+        "name": "Emily Hughes",
+        "text": "Gerçekten büyülü bir yemek deneyimi. İçeri girdiğimiz andan itibaren kendimizi aile gibi hissettik. Makarna taze ve mükemmel baharatlanmıştı, şarap eşleştirme önerileri harikaydı. Kesinlikle geri döneceğiz."
+      },
+      "alexander": {
+        "name": "Alexander Hayes",
+        "text": "Zarif bir ortamda olağanüstü İtalyan mutfağı. Osso Buco yumuşak ve lezzetliydi, tatlı seçimi etkileyiciydi. Hem yemekte hem de hizmette detaylara gösterilen özen, yıldönümü yemeğimizi unutulmaz kıldı."
+      }
+    }
+  },
+  "carousel": {
+    "heading": "Kaliteli Malzemeler",
+    "subtitle": "OTANTİK",
+    "description": "En iyi bölgesel malzemelerle hazırlanmış otantik yemeklerle mükemmel bir mutfak yolculuğu sunuyoruz.",
+    "slide1": {
+      "title": "Otantik Lezzetler",
+      "description": "Her yemek bir gelenek ve tutku hikayesi anlatır. Mutfağımızdan masanıza, İtalya'nın gerçek tadını deneyimleyin."
+    },
+    "slide2": {
+      "title": "Şarap ve Yemek",
+      "description": "Somelierlerimiz her yemeği mükemmel şekilde tamamlayan şaraplar seçti. La dolce vita'ya kadeh kaldırın."
+    },
+    "slide3": {
+      "title": "Mevsimlik Malzemeler",
+      "description": "Her anın en iyisini kutlayan yemekler getirmek için en iyi mevsimlik ürünleri ve malzemeleri tedarik ediyoruz."
+    },
+    "slide4": {
+      "title": "Unutulmaz Bir Akşam",
+      "description": "İster romantik bir akşam yemeği ister sevdiklerinizle bir kutlama olsun, restoranımız unutulmaz anlar için sahne hazırlıyor."
+    },
+    "slide5": {
+      "title": "Özenle Hazırlanmış",
+      "description": "Şeflerimiz her tabağa kalp ve ruh koyuyor. Misafirlerin neden tekrar tekrar döndüğünü keşfedin."
+    }
+  },
+  "homeBlog": {
+    "heading": "Kaynaklar ve Makaleler",
+    "subtitle": "Son Haberler",
+    "description": "İtalyan şarapları için bölgeleri, lezzetleri ve en iyi eşleşmeleri anlamak.",
+    "readMore": "Devamını Oku"
+  },
+  "dolceVita": {
+    "subtitle": "LA DOLCE VITA",
+    "heading": "İtalyan Yemeğine Aşk. Mamma Mia!",
+    "description": "Klasik makarna yemeklerinden lezzetli deniz ürünleri spesiyallerine kadar, menümüz İtalyan mutfağının canlı lezzetlerini ve zengin geleneklerini sergiliyor."
+  },
+  "menu": {
+    "heading": "Menümüz",
+    "subtitle": "AL DENTE",
+    "items": {
+      "bolognese": {
+        "name": "Bolonez",
+        "description": "Yavaş pişmiş lezzetli et sosu ve Parmesan ile klasik spagetti.",
+        "price": "₺64"
+      },
+      "carbonara": {
+        "name": "Karbonara",
+        "description": "Pancetta, yumurta, Pecorino Romano ve karabiber ile klasik Roma yemeği.",
+        "price": "₺58"
+      },
+      "calamari": {
+        "name": "Kalamar",
+        "description": "Marinara sos ve limon dilimleri ile servis edilen çıtır, altın sarısı kızarmış kalamar.",
+        "price": "₺39"
+      },
+      "bistecca": {
+        "name": "Biftek",
+        "description": "Zengin yeşil biberli ve brendili krema sosunda sulu biftek.",
+        "price": "₺72"
+      },
+      "lasagna": {
+        "name": "Lazanya",
+        "description": "Makarna katmanları, yavaş pişmiş et sosu, beşamel ve Parmesan.",
+        "price": "₺78"
+      },
+      "cacciatora": {
+        "name": "Kaçatora",
+        "description": "Karides, kalamar ve midye ile deniz ürünleri versiyonu, kokulu domates ve beyaz şarap sosunda.",
+        "price": "₺62"
+      },
+      "branzino": {
+        "name": "Levrek",
+        "description": "Taze otlar, sarımsak ve zeytinyağı ile fırında pişmiş bütün Akdeniz levreği.",
+        "price": "₺54"
+      },
+      "ossoBuco": {
+        "name": "Osso Buco",
+        "description": "Zamansız bir İtalyan favorisi, mükemmel şekilde haşlanmış ve mevsimlik sebzelerle eşleştirilmiş.",
+        "price": "₺67"
+      }
+    }
+  },
+  "booking": {
+    "heading": "Masa Rezervasyonu",
+    "subtitle": "İletişime Geçin",
+    "description": "İtalya'nın zamansız lezzetlerini kutlayın, her öğünün bir başyapıt olduğu yer.",
+    "form": {
+      "name": "Ad",
+      "email": "E-posta",
+      "date": "Tarih",
+      "guests": "Misafir Sayısı",
+      "submit": "Rezervasyon Yap"
+    }
+  },
+  "footer": {
+    "description": "Kyma Cyprus'ta Akdeniz'in özünü deneyimleyin",
+    "explore": "Keşfet",
+    "contact": "İletişim",
+    "address": "Archbishop Makarios III Cad. 28, Limasol, Kıbrıs, 3035",
+    "language": "Dil",
+    "copyright": "© Kyma Cyprus. Tüm hakları saklıdır.",
+    "builtBy": "Yapımcı"
+  },
+  "events": {
+    "subtitle": "Toplantılar ve Kutlamalar",
+    "heading": "Unutulmaz Etkinlikler",
+    "description": "Samimi şarap tadımlarından büyük kutlamalara kadar, Kyma Cyprus en değerli anlarınız için mükemmel bir arka plan sağlar.",
+    "event1": {"title": "Akdeniz Şarap Akşamı", "date": "Her Perşembe", "time": "19:00 - 22:00", "description": "Kıbrıs'ın en iyi bağlarında özel bir tadım yolculuğu.", "tag": "Sommelier Seçimi"},
+    "event2": {"title": "Gün Batımı Caz ve Deniz Ürünleri", "date": "Cumartesi", "time": "18:00 - 23:00", "description": "Paphos gün batımının arka planında canlı caz büyüsünü yaşayın.", "tag": "Atmosfer"},
+    "event3": {"title": "Mutfak Ustalık Sınıfı", "date": "Ayın İlk Pazarı", "time": "11:00 - 14:00", "description": "Geleneksel Kıbrıs-Akdeniz füzyonunun sırlarını öğrenmek için Executive Chef'imize katılın.", "tag": "Atölye"},
+    "privateHeading": "Özel Etkinliğinize Ev Sahipliği Yapın",
+    "privateDescription": "İster samimi bir prova yemeği, önemli bir yıldönümü veya kurumsal bir geri çekilme olsun, özel etkinlik ekibimiz vizyonunuza uygun bir deneyim yaratacaktır.",
+    "capacity": "50+", "capacityLabel": "Misafir Kapasitesi", "customMenu": "Özel", "customMenuLabel": "Menü Tasarımı", "buyout": "Tam", "buyoutLabel": "Tam Mekan Kiralama", "enquire": "Şimdi Sorun", "reserve": "Yerinizi Ayırtın"
+  },
+  "contact": {
+    "subtitle": "İletişime Geçin", "heading": "Bize Ulaşın", "visitHeading": "Sığınağımızı Ziyaret Edin",
+    "locationLabel": "Konum", "locationText": "12 Poseidonos Avenue,\n8042 Paphos, Kıbrıs",
+    "hoursLabel": "Çalışma Saatleri", "hoursText": "Pazartesi - Pazar: 12:00 - 23:00\nHappy Hour: 16:00 - 18:00",
+    "contactLabel": "Doğrudan İletişim", "contactText": "+357 26 000000\nexperience@kymacyprus.com",
+    "mapLoading": "Etkileşimli Harita Yükleniyor...", "formHeading": "Mesaj Gönderin", "formDescription": "Sizden haber almak isteriz. Lütfen aşağıdaki formu doldurun.",
+    "firstName": "Ad", "firstNamePlaceholder": "Örn. Ahmet", "lastName": "Soyad", "lastNamePlaceholder": "Örn. Yılmaz",
+    "email": "E-posta Adresi", "emailPlaceholder": "ahmet@example.com", "subject": "Konu",
+    "subjectReservation": "Rezervasyon Sorgusu", "subjectEvent": "Özel Etkinlik", "subjectGeneral": "Genel Soru", "subjectFeedback": "Geri Bildirim",
+    "message": "Mesaj", "messagePlaceholder": "Talebiniz hakkında daha fazla bilgi verin...", "submit": "Mesaj Gönder"
+  }
+}

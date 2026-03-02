@@ -1,0 +1,295 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "menu": "Menu",
+    "events": "Events",
+    "blog": "Blog",
+    "contact": "Contact Us",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "slide1": {
+      "subheading": "Experience",
+      "heading1": "Italiano",
+      "heading2": "Ristorante",
+      "description": "Discover a gastronomic experience that transports you to the heart of Italy."
+    },
+    "slide2": {
+      "subheading": "Taste",
+      "heading1": "Authentic",
+      "heading2": "Cuisine",
+      "description": "Handcrafted dishes from time-honored recipes and the finest seasonal ingredients."
+    },
+    "slide3": {
+      "subheading": "Heritage",
+      "heading1": "Rooted in",
+      "heading2": "Tradition",
+      "description": "Where generations of culinary artistry meet the warmth of Italian hospitality."
+    },
+    "viewMenu": "View Menu"
+  },
+  "features": {
+    "feature1": {
+      "line1": "AUTHENTIC",
+      "line2": "CUISINE"
+    },
+    "feature2": {
+      "line1": "FRESH & LOCAL",
+      "line2": "INGREDIENTS"
+    },
+    "feature3": {
+      "line1": "INVITING",
+      "line2": "ATMOSPHERE"
+    },
+    "feature4": {
+      "line1": "WELCOMING",
+      "line2": "SERVICE"
+    }
+  },
+  "story": {
+    "heading": "Our Story",
+    "subtitle": "Since 1982",
+    "block1": {
+      "heading": "Italy",
+      "description": "Visitors are drawn to its charming countryside, world-renowned vineyards, and the deep connection to Italy."
+    },
+    "block2": {
+      "heading": "Reimagined",
+      "description": "Reimagining classic recipes, chefs bring a contemporary twist to beloved staples."
+    },
+    "block3": {
+      "heading": "Gathering",
+      "description": "Where friends and family come together at the table, surrounded by the warmth of Italian hospitality."
+    }
+  },
+  "chef": {
+    "heading": "Our Chef",
+    "subtitle": "SEASONED",
+    "quote": "Food is the universal language of mankind.",
+    "bio1": "Renowned Chef Antonio Carbone brings decades of culinary expertise and a passion for Italian cuisine to Figaro.",
+    "bio2": "With a Michelin-starred background, he has crafted a menu that celebrates the richness and diversity of Italian gastronomy.",
+    "passionTitle": "PASSION",
+    "passionDesc": "Deep appreciation for Italian flavors.",
+    "title": "Head Chef",
+    "name": "Antonio Carbone"
+  },
+  "wine": {
+    "heading": "Wine Selection",
+    "subtitle": "Curated Collection",
+    "description": "Explore our carefully selected wines from renowned Mediterranean vineyards.",
+    "wines": {
+      "barolo": {
+        "name": "Barolo",
+        "price": "$85",
+        "description": "Full-bodied red from Piedmont with notes of cherry, rose, and truffle."
+      },
+      "barbaresco": {
+        "name": "Barbaresco",
+        "price": "$78",
+        "description": "Elegant Nebbiolo with refined tannins and floral aromatics."
+      },
+      "chianti": {
+        "name": "Chianti Classico",
+        "price": "$62",
+        "description": "Classic Tuscan red with bright cherry and earthy undertones."
+      },
+      "prosecco": {
+        "name": "Prosecco",
+        "price": "$48",
+        "description": "Sparkling white with crisp apple and pear notes."
+      },
+      "soave": {
+        "name": "Soave",
+        "price": "$52",
+        "description": "Refreshing white wine with citrus and almond flavors."
+      }
+    }
+  },
+  "reviews": {
+    "heading": "Customer Reviews",
+    "subtitle": "What Our Guests Say",
+    "customers": {
+      "christian": {
+        "name": "Christian Cooper",
+        "text": "Italiano exceeded my expectations! The staff was incredibly attentive and friendly, ensuring we had everything we needed. The Bistecca was cooked just the way I like it, and the tiramisu was the best I've ever had. The service, combined with the delicious food, made for an unforgettable evening."
+      },
+      "emily": {
+        "name": "Emily Hughes",
+        "text": "A truly magical dining experience. From the moment we walked in, we felt like family. The pasta was fresh and perfectly seasoned, and the wine pairing recommendations were spot-on. We'll definitely be back."
+      },
+      "alexander": {
+        "name": "Alexander Hayes",
+        "text": "Exceptional Italian cuisine in an elegant setting. The Osso Buco was tender and flavorful, and the dessert selection was impressive. The attention to detail in both food and service made our anniversary dinner unforgettable."
+      }
+    }
+  },
+  "carousel": {
+    "heading": "Quality Ingredients",
+    "subtitle": "AUTHENTIC",
+    "description": "We offer an exquisite culinary journey, featuring authentic dishes crafted with the finest regional ingredients.",
+    "slide1": {
+      "title": "Authentic Flavors",
+      "description": "Every dish tells a story of tradition and passion. From our kitchen to your table, experience the true taste of Italy."
+    },
+    "slide2": {
+      "title": "Wine & Dine",
+      "description": "Our sommeliers have selected wines that perfectly complement each course. Raise a glass to la dolce vita."
+    },
+    "slide3": {
+      "title": "Seasonal Ingredients",
+      "description": "We source the finest seasonal produce and ingredients to bring you dishes that celebrate the best of each moment."
+    },
+    "slide4": {
+      "title": "An Unforgettable Evening",
+      "description": "Whether a romantic dinner or a celebration with loved ones, our restaurant sets the stage for memorable moments."
+    },
+    "slide5": {
+      "title": "Crafted with Care",
+      "description": "Our chefs pour heart and soul into every plate. Discover why guests return again and again."
+    }
+  },
+  "homeBlog": {
+    "heading": "Resources & Articles",
+    "subtitle": "Latest News",
+    "description": "Understanding the regions, flavors, and best pairings for Italian wines.",
+    "readMore": "Read More"
+  },
+  "dolceVita": {
+    "subtitle": "LA DOLCE VITA",
+    "heading": "Love for Italian Food. Mamma Mia!",
+    "description": "From classic pasta dishes to delectable seafood specialties, our menu showcases the vibrant flavors and rich traditions of Italian cuisine."
+  },
+  "menu": {
+    "heading": "Our Menu",
+    "subtitle": "AL DENTE",
+    "items": {
+      "bolognese": {
+        "name": "Bolognese",
+        "description": "Classic spaghetti tossed in a savory, slow-cooked meat sauce with Parmesan.",
+        "price": "$64"
+      },
+      "carbonara": {
+        "name": "Carbonara",
+        "description": "Classic Roman dish with pancetta, eggs, Pecorino Romano, and black pepper.",
+        "price": "$58"
+      },
+      "calamari": {
+        "name": "Calamari",
+        "description": "Crispy, golden-fried calamari served with a side of marinara and lemon wedges.",
+        "price": "$39"
+      },
+      "bistecca": {
+        "name": "Bistecca",
+        "description": "Juicy steak in a rich green peppercorn and brandy cream sauce.",
+        "price": "$72"
+      },
+      "lasagna": {
+        "name": "Lasagna",
+        "description": "Layers of pasta, slow-cooked meat sauce, béchamel, and Parmesan.",
+        "price": "$78"
+      },
+      "cacciatora": {
+        "name": "Cacciatora",
+        "description": "A seafood twist featuring shrimp, calamari, and mussels in a fragrant tomato and white wine sauce.",
+        "price": "$62"
+      },
+      "branzino": {
+        "name": "Branzino",
+        "description": "Whole Mediterranean sea bass oven-roasted with fresh herbs, garlic, and olive oil.",
+        "price": "$54"
+      },
+      "ossoBuco": {
+        "name": "Osso Buco",
+        "description": "A timeless Italian favorite, braised to perfection and paired with seasonal vegetables.",
+        "price": "$67"
+      }
+    }
+  },
+  "booking": {
+    "heading": "Book A Table",
+    "subtitle": "Get In Touch",
+    "description": "Celebrate the timeless flavors of Italy, where every meal is a masterpiece.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "date": "Date",
+      "guests": "Guests",
+      "submit": "Make A Reservation"
+    }
+  },
+  "footer": {
+    "description": "Experience the essence of the Mediterranean at Kyma Cyprus",
+    "explore": "Explore",
+    "contact": "Contact",
+    "address": "28 Archbishop Makarios III Ave, Limassol, Cyprus, 3035",
+    "language": "Language",
+    "copyright": "© Kyma Cyprus. All Rights Reserved.",
+    "builtBy": "Built by"
+  },
+  "events": {
+    "subtitle": "Gatherings & Celebrations",
+    "heading": "Unforgettable Events",
+    "description": "From intimate wine tastings to grand celebrations, Kyma Cyprus provides the perfect backdrop for your most cherished moments.",
+    "event1": {
+      "title": "Mediterranean Wine Evening",
+      "date": "Every Thursday",
+      "time": "7:00 PM - 10:00 PM",
+      "description": "An exclusive tasting journey through Cyprus's finest vineyards, paired with artisanal cheeses and coastal appetizers.",
+      "tag": "Sommelier Choice"
+    },
+    "event2": {
+      "title": "Sunset Jazz & Seafood",
+      "date": "Saturdays",
+      "time": "6:00 PM - 11:00 PM",
+      "description": "Experience the magic of live jazz against the backdrop of the Paphos sunset, featuring our signature seafood platters.",
+      "tag": "Atmosphere"
+    },
+    "event3": {
+      "title": "Culinary Masterclass",
+      "date": "First Sunday of Month",
+      "time": "11:00 AM - 2:00 PM",
+      "description": "Join our Executive Chef for an intimate cooking session, learning the secrets of traditional Cypriot-Mediterranean fusion.",
+      "tag": "Workshop"
+    },
+    "privateHeading": "Host Your Private Occasion",
+    "privateDescription": "Whether it's an intimate rehearsal dinner, a milestone anniversary, or a corporate retreat, our dedicated events team will craft an experience tailored to your vision.",
+    "capacity": "50+",
+    "capacityLabel": "Guest Capacity",
+    "customMenu": "Custom",
+    "customMenuLabel": "Menu Design",
+    "buyout": "Full",
+    "buyoutLabel": "Venue Buyout",
+    "enquire": "Enquire Now",
+    "reserve": "Reserve Your Spot"
+  },
+  "contact": {
+    "subtitle": "Get In Touch",
+    "heading": "Contact Us",
+    "visitHeading": "Visit Our Sanctuary",
+    "locationLabel": "Location",
+    "locationText": "12 Poseidonos Avenue,\n8042 Paphos, Cyprus",
+    "hoursLabel": "Opening Hours",
+    "hoursText": "Monday - Sunday: 12:00 PM - 11:00 PM\nHappy Hour: 4:00 PM - 6:00 PM",
+    "contactLabel": "Direct Contact",
+    "contactText": "+357 26 000000\nexperience@kymacyprus.com",
+    "mapLoading": "Interactive Map Loading...",
+    "formHeading": "Send a Message",
+    "formDescription": "We would love to hear from you. Please fill out the form below.",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "E.g. Alexander",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "E.g. Papas",
+    "email": "Email Address",
+    "emailPlaceholder": "alexander@example.com",
+    "subject": "Subject",
+    "subjectReservation": "Reservation Inquiry",
+    "subjectEvent": "Private Event",
+    "subjectGeneral": "General Question",
+    "subjectFeedback": "Feedback",
+    "message": "Message",
+    "messagePlaceholder": "Tell us more about your request...",
+    "submit": "Send Message"
+  }
+}

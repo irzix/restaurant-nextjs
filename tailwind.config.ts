@@ -58,6 +58,7 @@ const config: Config = {
         barlow: ["var(--font-barlow)", "sans-serif"],
         "barlow-c": ["var(--font-barlow-c)", "sans-serif"],
         allura: ["var(--font-allura)", "cursive"],
+        vazir: ["var(--font-vazir)", "sans-serif"],
       },
       colors: {
         header: {
