@@ -11,9 +11,6 @@
     "check-translations": "node scripts/check-translations.js"
   },
   "dependencies": {
-    "@fontsource/barlow": "^5.1.0",
-    "@fontsource/barlow-condensed": "^5.1.0",
-    "@fontsource/gilda-display": "^5.1.0",
     "@fontsource/vazirmatn": "^5.2.8",
     "next": "latest",
     "next-intl": "^4.8.3",
