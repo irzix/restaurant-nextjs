@@ -1,5 +1,7 @@
 # Restaurant Next.js Template
 
+![Vaultium Cover](./clean-browser-mockup.png)
+
 A modern, multilingual restaurant website template built with Next.js 15, TypeScript, and Tailwind CSS.
 
 ## Features
